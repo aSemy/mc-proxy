@@ -1,0 +1,18 @@
+{
+  "name": "mcproxy-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mcproxy.js",
+  "scripts": {
+    "start": "node mcproxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/compute": "^1.2.0",
+    "minecraft-protocol": "^1.12.0",
+    "minecraft-server-util": "^1.3.0"
+  }
+}
